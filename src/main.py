@@ -4,9 +4,8 @@ from funcs_for_parse_NGU import *
 from funcs_for_parse_OpenAlex import *
 from funcs_for_compare import *
 
-#print('Please enter the path to the chromedriver:')
-#path_to_driver = input()
-path_to_driver = 'C:/chromedriver/chromedriver.exe'
+print('Please enter the path to the chromedriver:')
+path_to_driver = input()
 driver = driver_setup(path_to_driver)
 
 data_dicts_scopus_NGU = []
