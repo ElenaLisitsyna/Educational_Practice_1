@@ -1,0 +1,14 @@
+PROJECT_NAME           = "Parse and compare"
+PROJECT_NUMBER         = 1.0
+OUTPUT_LANGUAGE        = Russian
+OUTPUT_DIRECTORY       = docs/
+INPUT                  = .
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
